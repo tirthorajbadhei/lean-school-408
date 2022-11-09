@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+body{
+  margin: 0px;
+ background-color: #fdfdf9;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.div1{
+  font-family: "Avenir Book" - 400 italic;
+  font-style: italic;
+  font-size: 13px;
+  line-height: 15px;
+  margin-top: 10px;
+  letter-spacing: 1px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.div2{
+  font-family: "Avenir Medium" - 400;
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 15px;
+  letter-spacing: 1px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.div3{
+  font-family: "Avenir Book" - 400;
+  letter-spacing: 1px;
+  font-size: 13px;
+  line-height: 15px;
+  margin-top: 10px;
+  text-decoration: underline;
 }
