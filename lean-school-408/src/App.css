@@ -1,6 +1,6 @@
 body{
   margin: 0px;
- background-color: #fdfdf9;
+ background-color:#fdfdf9;
 }
 .div1{
   font-family: "Avenir Book" - 400 italic;
@@ -24,4 +24,42 @@ body{
   line-height: 15px;
   margin-top: 10px;
   text-decoration: underline;
+}
+.div3:hover{
+  cursor: pointer;
+}
+.box2{
+  margin-top: 55px;
+  width: 100%;
+  background-color: #fdfdf9;
+  height: 65px;
+  /* border: 1px solid green; */
+}
+.box2 img:hover{
+  cursor: pointer;
+  border-top: 3px solid teal;
+}
+input:hover{
+  cursor: grab;
+}
+.box3{
+  font-family: "Avenir Medium" - 400;
+  font-size: 13px;
+  
+}
+.box3>h2{
+  margin-left: 25px;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+.box3 h2:hover{
+  cursor: pointer;
+  color:rgb(27, 128, 128);
+  border-bottom: 1px solid teal;
+}
+.box4 img:hover{
+  cursor: pointer;
+}
+img:hover{
+  cursor: pointer;
 }
