@@ -157,12 +157,315 @@ function App() {
           src="https://images.ctfassets.net/5de70he6op10/sElVOkh1LlYRV8lFchscj/3fa66885dac24294a26ad182591b8639/ALiving_HPG_LS_01-1.jpg?w=2640&q=80&fm=webp"
         />
       </Box>
-      <Box>
+      <Box marginBottom={"30px"}>
         <Image
           w={"90%"}
           marginLeft={"85px"}
           src="https://images.ctfassets.net/5de70he6op10/6YcDf5MI12J4gw9cOaz9WP/70f858a9574c2e0ff43b2b7bdc6e61af/LS_M4.jpg?w=2641&q=80&fm=webp"
         />
+      </Box>
+      <Box
+        w={"100%"}
+        h="auto"
+        display={"flex"}
+        gap="24px"
+        marginLeft={"80px"}
+        marginBottom="30px"
+      >
+        <Image
+          w={"29%"}
+          src="https://images.ctfassets.net/5de70he6op10/1tvJoT22ik3nvINpJ5aFDI/232f2d65245506153bed409796be797a/RR_Shoes.jpg?w=856&q=80&fm=webp"
+        />
+        <Image
+          w={"29%"}
+          src="https://images.ctfassets.net/5de70he6op10/598MH2NP5s3cLDQ8UiNbSG/d1668680dd51f4addac5834086b03d64/RR_Jeans.jpg?w=856&q=80&fm=webp"
+        />
+        <Image
+          w={"29%"}
+          src="https://images.ctfassets.net/5de70he6op10/6gih0n8sL6Nei296yMBw1g/8b3197b8943cd443c792f1d6458b3007/RR_Candles.jpg?w=856&q=80&fm=webp"
+        />
+      </Box>
+      <Box
+        w={"90%"}
+        h="40px"
+        marginLeft={"70px"}
+        borderBottom={"1px solid #e6e3df"}
+        marginTop="10px"
+        marginBottom={"30px"}
+      >
+        <h3 style={{ fontFamily: "Avenir Medium", fontSize: "23px" }}>
+          Trending Now
+        </h3>
+      </Box>
+      <Box className="box5" marginBottom={"80px"}>
+        <Box className="sm1">
+          <Image src="https://images.urbndata.com/is/image/Anthropologie/57802431_001_b2?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640" />
+          <Image src="https://images.urbndata.com/is/image/Anthropologie/57802431_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640" />
+        </Box>
+        <Box className="sm2">
+          <Image src="https://images.urbndata.com/is/image/Anthropologie/4130729390014_052_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640" />
+          <Image src="https://images.urbndata.com/is/image/Anthropologie/4130729390014_052_b2?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640" />
+        </Box>
+        <Box className="sm3">
+          <Image src="https://images.urbndata.com/is/image/Anthropologie/53108122_029_b2?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640" />
+          <Image src="https://images.urbndata.com/is/image/Anthropologie/53108122_029_b3?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640" />
+        </Box>
+        <Box className="sm4">
+          <Image src="https://images.urbndata.com/is/image/Anthropologie/79046173_007_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640" />
+          <Image src="https://images.urbndata.com/is/image/Anthropologie/79046173_007_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640" />
+        </Box>
+        <Box className="sm5">
+          <Image src="https://images.urbndata.com/is/image/Anthropologie/59360651_011_b1?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640" />
+          <Image src="https://images.urbndata.com/is/image/Anthropologie/59360651_011_b2?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640" />
+        </Box>
+        <Box>
+          <p style={{ marginTop: "370px", fontSize: "12px" }}>
+            Nodpod Weighted Eye Mask
+          </p>
+        </Box>
+        <Box>
+          <p
+            style={{
+              marginTop: "370px",
+              marginLeft: "150px",
+              fontSize: "12px",
+            }}
+          >
+            Selkie The Moonlight Dress
+          </p>
+        </Box>
+        <Box>
+          <p
+            style={{
+              marginTop: "370px",
+              marginLeft: "150px",
+              fontSize: "12px",
+            }}
+          >
+            Hansel From Basel Soft Roll Socks
+          </p>
+        </Box>
+        <Box>
+          <p
+            style={{
+              marginTop: "370px",
+              marginLeft: "150px",
+              fontSize: "12px",
+            }}
+          >
+            Roller Rabbit Hearts Sleep Set
+          </p>
+        </Box>
+        <Box>
+          <p
+            style={{
+              marginTop: "370px",
+              marginLeft: "150px",
+              fontSize: "12px",
+            }}
+          >
+            Pilcro Ruffled Raglan Thermal Top
+          </p>
+        </Box>
+      </Box>
+      <Box
+        w={"90%"}
+        h="40px"
+        marginLeft={"70px"}
+        borderBottom={"1px solid #e6e3df"}
+        marginTop="10px"
+        marginBottom={"30px"}
+      >
+        <h3 style={{ fontFamily: "Avenir Medium", fontSize: "23px" }}>
+          You May Also Like
+        </h3>
+      </Box>
+      <Box className="box5" marginBottom={"50px"}>
+        <Box className="sm1">
+          <Image src="https://images.urbndata.com/is/image/Anthropologie/39567797_001_b10?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640" />
+          <Image src="https://images.urbndata.com/is/image/Anthropologie/39567797_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640" />
+        </Box>
+        <Box className="sm2">
+          <Image src="https://images.urbndata.com/is/image/Anthropologie/54909395_015_b11?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640" />
+          <Image src="https://images.urbndata.com/is/image/Anthropologie/54909395_015_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640" />
+        </Box>
+        <Box className="sm3">
+          <Image src="https://images.urbndata.com/is/image/Anthropologie/39299136_027_b3?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640" />
+          <Image src="https://images.urbndata.com/is/image/Anthropologie/39299136_027_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640" />
+        </Box>
+        <Box className="sm4">
+          <Image src="https://images.urbndata.com/is/image/Anthropologie/65858813_095_b2?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640" />
+          <Image src="https://images.urbndata.com/is/image/Anthropologie/65858813_095_b3?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640" />
+        </Box>
+        <Box className="sm5">
+          <Image src="https://images.urbndata.com/is/image/Anthropologie/39658166_000_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640" />
+          <Image src="https://images.urbndata.com/is/image/Anthropologie/39658166_000_b4?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640" />
+        </Box>
+        <Box>
+          <p style={{ marginTop: "370px", fontSize: "12px" }}>
+            Rosalita Switch Plate
+          </p>
+        </Box>
+        <Box>
+          <p
+            style={{
+              marginTop: "370px",
+              marginLeft: "190px",
+              fontSize: "12px",
+            }}
+          >
+            Hemming Linen Headboard Cushion
+          </p>
+        </Box>
+        <Box>
+          <p
+            style={{
+              marginTop: "370px",
+              marginLeft: "150px",
+              fontSize: "12px",
+            }}
+          >
+            Pressed Glass Photo Frame
+          </p>
+        </Box>
+        <Box>
+          <p
+            style={{
+              marginTop: "370px",
+              marginLeft: "150px",
+              fontSize: "12px",
+            }}
+          >
+            Tisha Throw Blanket
+          </p>
+        </Box>
+        <Box>
+          <p
+            style={{
+              marginTop: "370px",
+              marginLeft: "210px",
+              fontSize: "12px",
+            }}
+          >
+            Faux Noble Fir
+          </p>
+        </Box>
+      </Box>
+      <Box
+        w={"90%"}
+        h="40px"
+        marginLeft={"70px"}
+        borderBottom={"1px solid black"}
+        marginTop="10px"
+        marginBottom={"30px"}
+      >
+        <h3
+          style={{
+            fontFamily: "Avenir Medium",
+            fontSize: "23px",
+            textAlign: "center",
+          }}
+        >
+          More to Explore
+        </h3>
+      </Box>
+      <Box
+        w={"100%"}
+        h="auto"
+        display={"flex"}
+        gap="24px"
+        marginLeft={"80px"}
+        marginBottom="30px"
+      >
+        <Image
+          w={"29%"}
+          src="https://images.ctfassets.net/5de70he6op10/4Uq666sNSwxPJkwfkNekwE/229e99ddfcc9ed0f9fb4c1d0d3f63df9/MTE_1.jpg?w=856&q=80&fm=webp"
+        />
+        <Image
+          w={"29%"}
+          src="https://images.ctfassets.net/5de70he6op10/5HxUPMjRhRmYBhDzG7lYb8/8bd8da754c35f286701c479b6fb4885e/LS_MTE_2.jpg?w=856&q=80&fm=webp"
+        />
+        <Image
+          w={"29%"}
+          src="https://images.ctfassets.net/5de70he6op10/673WCOKnBlUgppuS7WBHzB/fba4ac8902af41c13345308297b6c9f5/MTE_3.jpg?w=856&q=80&fm=webp"
+        />
+      </Box>
+      <Box display={"flex"}>
+        <Box marginLeft={"80px"}>
+          <h3
+            style={{
+              fontSize: "25px",
+              fontFamily: "Spectral Extra Light",
+              fontStyle: "italic",
+            }}
+          >
+            new! BUNDLE with JOY
+          </h3>
+          <p style={{ fontSize: "15px" }}>
+            Save time (and $$$) with curated gift sets for everyone on your
+            list.
+          </p>
+          <p
+            style={{
+              textDecoration: "underline",
+              color: "teal",
+              cursor: "pointer",
+              fontSize: "13px",
+              fontFamily: "Avenir Book - 400",
+            }}
+          >
+            shop gift bundles
+          </p>
+        </Box>
+        <Box marginLeft={"200px"} w="50%">
+          <h3
+            style={{
+              fontSize: "25px",
+              fontFamily: "Spectral Extra Light",
+              fontStyle: "italic",
+            }}
+          >
+            The Holiday Beauty Shop
+          </h3>
+          <p style={{ fontSize: "15px" }}>Ready, set, let's glow gifting!</p>
+          <p
+            style={{
+              textDecoration: "underline",
+              color: "teal",
+              cursor: "pointer",
+              fontSize: "13px",
+              fontFamily: "Avenir Book - 400",
+            }}
+          >
+            shop fragrance gifts, exclusive sets & more
+          </p>
+        </Box>
+        <Box>
+          <h3
+            style={{
+              fontSize: "25px",
+              fontFamily: "Spectral Extra Light",
+              fontStyle: "italic",
+            }}
+          >
+            THE ART OF THE DRESS
+          </h3>
+          <p style={{ fontSize: "15px", width: "85%" }}>
+            Introducing a lovingly curated collection of sculptural silhouettes,
+            enlightened details, and everlasting impressions.
+          </p>
+          <p
+            style={{
+              textDecoration: "underline",
+              color: "teal",
+              cursor: "pointer",
+              fontSize: "13px",
+              fontFamily: "Avenir Book - 400",
+            }}
+          >
+            shop BHLDN weddings
+          </p>
+        </Box>
       </Box>
     </div>
   );

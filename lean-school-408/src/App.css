@@ -60,6 +60,63 @@ input:hover{
 .box4 img:hover{
   cursor: pointer;
 }
+.box5{
+  display: flex;
+  margin-left: 70px;
+  
+}
+.box5 p:hover{
+  color: teal;
+  cursor: pointer;
+}
 img:hover{
   cursor: pointer;
 }
+.sm1 img{
+  width: 15%;
+  position: absolute;
+  transition: 400ms;
+}
+.sm1 img:hover{
+  opacity: 0;
+}
+.sm2 img{
+  margin-left: 300px;
+  width: 15%;
+  position: absolute;
+  transition: 400ms;
+}
+.sm2 img:hover{
+  opacity: 0;
+}
+.sm3 img{
+  margin-left: 600px;
+  width: 15%;
+  position: absolute;
+  transition: 400ms;
+}
+.sm3 img:hover{
+  opacity: 0;
+}
+.sm4 img{
+  margin-left: 900px;
+  width: 15%;
+  position: absolute;
+  transition: 400ms;
+}
+.sm4 img:hover{
+  opacity: 0;
+}
+.sm5 img{
+  margin-left: 1200px;
+  width: 15%;
+  position: absolute;
+  transition: 400ms;
+}
+.sm5 img:hover{
+  opacity: 0;
+}
+
+
+
+
