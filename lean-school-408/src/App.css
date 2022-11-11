@@ -1,7 +1,8 @@
 body{
   margin: 0px;
- background-color:#fdfdf9;
+ background-color: black;
 }
+
 .div1{
   font-family: "Avenir Book" - 400 italic;
   font-style: italic;
@@ -9,6 +10,7 @@ body{
   line-height: 15px;
   margin-top: 10px;
   letter-spacing: 1px;
+  
 }
 .div2{
   font-family: "Avenir Medium" - 400;
@@ -24,6 +26,7 @@ body{
   line-height: 15px;
   margin-top: 10px;
   text-decoration: underline;
+  
 }
 .div3:hover{
   cursor: pointer;
