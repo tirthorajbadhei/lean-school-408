@@ -9,7 +9,7 @@ export default function Login(){
     return <Navigate to={"/"}/>
   }
   
-    return <div style={{width: "40%",margin:"auto"}}>
+    return <div style={{width: "40%",margin:"auto",backgroundColor:"gray"}}>
         <form action="action_page.php" method="post"/>
   <div className="imgcontainer">
     
@@ -22,7 +22,7 @@ export default function Login(){
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required/>
 
-    <button onClick={handleAuth} type="submit" style={{backgroundColor:"#4b5666 "}}>Login</button>
+    <button onClick={handleAuth} type="submit" style={{backgroundColor:" #ccc "}}>Login</button>
     <label>
       <input type="checkbox" checked="checked" name="remember"/> Remember me
     </label>
